@@ -13,4 +13,4 @@ personal wallet and account management with deposit and withdraw balance
 - delete deposit and withdraw record
 - store data in browser local storage
 
-[live demo](https://muhib-dev.github.io/wallet-and-account-management/)
+[live demo](https://muhib-dev.github.io/vanila-javascript-projects/account%20management/)
