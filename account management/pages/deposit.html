@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deposit</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h4 class="title-text">
+        Deposit To : <span id="accountNameLabel"></span>
+      </h4>
+      <a class="link" href="../index.html">Back To Account</a>
+      <div class="card">
+        <form id="formDeposit">
+          <div class="flex">
+            <input
+              type="number"
+              min="0"
+              name="amount"
+              class="input-control"
+              placeholder="Amount"
+              required
+            />
+            <input
+              type="text"
+              name="description"
+              class="input-control mx-1"
+              placeholder="Description"
+            />
+            <input type="submit" value="Deposit" class="btn btn-primary" />
+          </div>
+        </form>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Amount</th>
+              <th>Description</th>
+              <th>Date</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody id="depositTBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="../js/app.js"></script>
+    <script src="../js/deposit.js"></script>
+  </body>
+</html>

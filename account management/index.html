@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Management</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex">
+        <h4 class="title-text">Account Management</h4>
+        <h4 class="title-text">
+          Total Balance: <span id="labelTotalBalance"></span>
+        </h4>
+      </div>
+
+      <div class="card">
+        <form id="formAddAccount">
+          <div class="flex">
+            <input
+              type="text"
+              name="accountName"
+              class="input-control"
+              placeholder="Enter Account Name"
+              required
+            />
+
+            <input
+              type="submit"
+              value="Create account"
+              class="btn btn-primary"
+            />
+          </div>
+        </form>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Account Name</th>
+              <th>Account Balance</th>
+              <th>Delete</th>
+              <th>Deposit</th>
+              <th>Withdraw</th>
+            </tr>
+          </thead>
+          <tbody id="tBody"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+    <script src="./js/account.js"></script>
+  </body>
+</html>
