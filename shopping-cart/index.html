@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/cart.css" />
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container flex">
+        <h2>Shopping Cart</h2>
+        <strong id="count-total-cart">Cart (0)</strong>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="product-grid"></div>
+      </div>
+
+      <!-- cart area -->
+      <div class="cart-continer">
+        <div class="cart-header flex">
+          <h2>Product Cart</h2>
+          <svg
+            id="cart-close"
+            xmlns="http://www.w3.org/2000/svg"
+            class="cart-close-icon"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+
+        <form id="formCart">
+          <div id="cart-item"></div>
+
+          <div class="chekout">
+            <div class="price-container flex">
+              <span>TOTAL PRICE</span>
+              <span id="cart-total-price">0</span>
+            </div>
+
+            <input class="btn btn-primary" type="submit" value="CHECKOUT" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <script src="./js/data.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
