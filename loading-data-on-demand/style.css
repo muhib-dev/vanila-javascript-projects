@@ -1,0 +1,79 @@
+/*reset default style*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #5f3e78;
+  --secondary: #2a1e33;
+  --bg-color: #333;
+  --base-color: #fff;
+}
+/*basic styles*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--base-color);
+  text-align: left;
+  background-color: var(--bg-color);
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+header {
+  position: sticky;
+  top: 0;
+  background-color: #272626;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.18), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#posts {
+  margin-bottom: 2rem;
+}
+.d-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.card {
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.18), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 0.5rem;
+}
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #b6b6b6;
+}
+.card-body {
+  font-size: 1rem;
+  color: #b1b1b1;
+  line-height: 1.8;
+}
+#loading-container {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#btn-load-more {
+  background-color: #15b764;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/**RESPONSIVE*/
+@media (min-width: 768px) {
+}

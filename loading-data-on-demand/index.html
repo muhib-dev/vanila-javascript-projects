@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Load On Demand Data</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container d-flex">
+        <h1 class="title">LOAD ON DEMAND DATA</h1>
+        <strong id="count-total-post">0</strong>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="d-grid" id="posts"></div>
+
+      <div id="loading-container">
+        <button id="btn-load-more">Load More</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

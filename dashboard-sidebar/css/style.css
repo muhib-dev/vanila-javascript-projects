@@ -120,6 +120,9 @@ header a {
   text-decoration: none;
   color: #fff;
 }
+header h2 {
+  font-size: 1rem;
+}
 header ul {
   list-style: none;
   display: flex;
@@ -137,8 +140,6 @@ header ul li {
   background: none;
   border: none;
   cursor: pointer;
-  /* opacity: 1;
-  pointer-events: all; */
 }
 
 .close-nav i {
@@ -152,7 +153,9 @@ header ul li {
     opacity: 0;
     pointer-events: none;
   }
-
+  header h2 {
+    font-size: 1.5rem;
+  }
   nav {
     left: 0;
   }
