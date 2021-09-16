@@ -2,7 +2,7 @@
 
 fully responsive and dynamic shopping cart
 
-## Fetures
+### features
 
 - dynamically show products
 - fully responsive mobile first approach

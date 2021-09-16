@@ -2,7 +2,7 @@
 
 fully responsive and dynamic side navbar with active current link
 
-## Fetures
+### features
 
 - sidebar data from external source
 - sidebar dynamic data binding

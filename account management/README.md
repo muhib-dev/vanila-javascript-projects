@@ -2,7 +2,7 @@
 
 personal wallet and account management with deposit and withdraw balance
 
-### Fetures
+### features
 
 - unique account name
 - inline editing account name (on click account name)
