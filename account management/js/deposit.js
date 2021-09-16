@@ -6,7 +6,7 @@ const id = +params.get("id");
 const data = app.getTransactionDetails(id);
 
 //return to accoutn if not found
-if (!data) location.href = "/";
+if (!data) location.href = "../index.html";
 
 //set account name
 const accountName = document.getElementById("accountNameLabel");

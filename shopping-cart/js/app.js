@@ -11,10 +11,9 @@ const cartTotalPrice = document.getElementById("cart-total-price");
 //cart drawer open click
 countTotalCart.addEventListener("click", function (evt) {
   const totalQuantityCount = shoppingCart.totalQuantityCount();
-  const isOpened = cartContiner.classList.contains("cart-open");
 
-  if (totalQuantityCount && !isOpened) {
-    cartContiner.classList.add("cart-open");
+  if (totalQuantityCount) {
+    cartContiner.classList.toggle("cart-open");
     return;
   }
 });
@@ -183,3 +182,20 @@ cartItemContainer.addEventListener("input", function (evt) {
 
 //load cart item to cart container
 initCartItems();
+
+//****CHECKOUT */
+const formCart = document.getElementById("formCart");
+formCart.addEventListener("submit", function (evt) {
+  evt.preventDefault();
+
+  const body = {
+    cartList: shoppingCart.getCart(),
+    totalAmount: shoppingCart.totalAmountCart(),
+  };
+
+  //submit data to server
+  console.log(body);
+
+  //claer the local store
+  //shoppingCart.clearCart();
+});
