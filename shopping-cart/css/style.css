@@ -7,6 +7,7 @@
 :root {
   --primary: #3c434a;
   --secondary: #6c757d;
+  --bg-color: #46486f08;
 }
 /*basic styles*/
 body {
@@ -15,7 +16,7 @@ body {
   line-height: 1.5;
   color: #333;
   text-align: left;
-  background: #46486f08;
+  background-color: var(--bg-color);
 }
 header {
   background-color: #36415f;
@@ -80,10 +81,10 @@ label {
 
 /**PRODUCT STYLE**/
 .product-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  padding: 1rem;
   margin-bottom: 4rem;
+  display: grid;
+  gap: 1.5rem;
 }
 .product {
   box-shadow: 0 2px 5px 0 rgba(200, 190, 190, 0.16),
@@ -91,6 +92,7 @@ label {
   border-radius: 0.25rem;
   overflow: hidden;
   background-color: #fff;
+  margin-bottom: 1rem;
 }
 .product img {
   width: 100%;
@@ -138,3 +140,14 @@ input[type="number"] {
 }
 
 /**responsive**/
+@media (min-width: 550px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

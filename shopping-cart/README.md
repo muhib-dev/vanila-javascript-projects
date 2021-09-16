@@ -1,0 +1,16 @@
+# E-commerce shopping cart
+
+fully responsive and dynamic shopping cart
+
+## Fetures
+
+- dynamically show products
+- fully responsive mobile first approach
+- add product to cart
+- toggle cart sidebar
+- prevent duplicate cart added
+- update cart quantity
+- delete item from cart
+- save cart to brower localstorage
+
+[live demo](https://muhib-dev.github.io/vanila-javascript-projects/shopping-cart/)
