@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form Validation</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="hero-section">
+        <h1>DEV MASTER</h1>
+        <p>Signup and get one year access for free</p>
+
+        <div class="hero-img">
+          <img src="./images/hero.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="form-section">
+        <h1>Create Account</h1>
+        <form id="formSignup">
+          <div class="form-group">
+            <label>Username</label>
+            <input name="userName" class="form-control" type="text" />
+            <small></small>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input name="email" class="form-control" type="text" />
+            <small></small>
+          </div>
+
+          <div class="form-group">
+            <label>Address</label>
+            <input name="address" class="form-control" type="text" />
+            <small></small>
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input name="password" class="form-control" type="password" />
+            <small></small>
+          </div>
+          <div class="form-group">
+            <label>Confirm Password</label>
+            <input
+              name="confirmPassword"
+              class="form-control"
+              type="password"
+            />
+            <small></small>
+          </div>
+
+          <button id="btn-submit" type="submit">Create Account</button>
+          <p>Already have account? <a href="#">login</a></p>
+        </form>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

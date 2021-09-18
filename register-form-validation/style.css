@@ -1,0 +1,135 @@
+/*reset default style*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #5f3e78;
+  --secondary: #2a1e33;
+  --bg-color: #333;
+  --base-color: #333;
+}
+/*basic styles*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--base-color);
+  text-align: left;
+}
+
+/* hero section styles */
+.hero-section {
+  background-color: #040b21;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+  padding: 5rem;
+  text-align: center;
+}
+.hero-section h1 {
+  color: #0678e2;
+  font-weight: 700;
+}
+.hero-section p {
+  margin-bottom: 8rem;
+  font-weight: 300;
+  color: #ddd;
+}
+.hero-section .hero-img {
+  max-width: 35rem;
+}
+.hero-section .hero-img img {
+  width: 100%;
+}
+
+/* form section styles */
+.form-section {
+  flex: 1;
+  padding: 2rem;
+}
+.form-section h1 {
+  margin-bottom: 3rem;
+  font-size: 2.1rem;
+}
+.form-section button {
+  background-color: #0087fb;
+  border: none;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 30px;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+.form-section p {
+  color: #333;
+  text-align: right;
+}
+.form-section p a {
+  color: #0087fb;
+  text-decoration: none;
+}
+.form-group {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+/*active label*/
+.form-group label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  display: inline-block;
+  color: #585858;
+  pointer-events: none;
+  transition: transform 0.2s ease-out;
+  transform: translateY(12px);
+  transform-origin: 0% 100%;
+}
+.form-group label.active {
+  transform: translateY(-14px) scale(0.8);
+}
+
+/*input error**/
+.form-group.error input {
+  border-bottom: 1px solid red;
+}
+.form-group.error small {
+  color: #ff4444;
+}
+/*input success**/
+.form-group.success input {
+  border-bottom: 1px solid #00c851;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 0.8rem 0.5rem;
+  font-size: 1rem;
+  color: #333;
+  transition: 0.3s;
+}
+.form-control:focus {
+  border: none;
+  border-bottom: 1px solid rgb(103, 177, 238);
+  outline: none;
+}
+/**responsive**/
+@media (min-width: 800px) {
+  main {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  .form-section {
+    flex: 1;
+    padding: 5rem 10rem;
+  }
+}
