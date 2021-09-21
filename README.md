@@ -10,3 +10,4 @@ mini project develop with vanila-javascript
 | 04  |  [Load On Demand Data From API](https://github.com/muhib-dev/vanila-javascript-projects/tree/main/loading-data-on-demand)   |  [Live Demo](https://muhib-dev.github.io/vanila-javascript-projects/loading-data-on-demand/)  |
 | 05  | [Modern UI And Form Validation](https://github.com/muhib-dev/vanila-javascript-projects/tree/main/register-form-validation) | [Live Demo](https://muhib-dev.github.io/vanila-javascript-projects/register-form-validation/) |
 | 06  |                [Modal Popup](https://github.com/muhib-dev/vanila-javascript-projects/tree/main/modal-popup)                 |       [Live Demo](https://muhib-dev.github.io/vanila-javascript-projects/modal-popup/)        |
+| 07  |        [Autocomplete Search](https://github.com/muhib-dev/vanila-javascript-projects/tree/main/autocomplete-search)         |   [Live Demo](https://muhib-dev.github.io/vanila-javascript-projects/autocomplete-search/)    |
