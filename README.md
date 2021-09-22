@@ -11,3 +11,4 @@ mini project develop with vanila-javascript
 | 05  | [Modern UI And Form Validation](https://github.com/muhib-dev/vanila-javascript-projects/tree/main/register-form-validation) | [Live Demo](https://muhib-dev.github.io/vanila-javascript-projects/register-form-validation/) |
 | 06  |                [Modal Popup](https://github.com/muhib-dev/vanila-javascript-projects/tree/main/modal-popup)                 |       [Live Demo](https://muhib-dev.github.io/vanila-javascript-projects/modal-popup/)        |
 | 07  |        [Autocomplete Search](https://github.com/muhib-dev/vanila-javascript-projects/tree/main/autocomplete-search)         |   [Live Demo](https://muhib-dev.github.io/vanila-javascript-projects/autocomplete-search/)    |
+| 08  |              [Image Gallery](https://github.com/muhib-dev/vanila-javascript-projects/tree/main/image-gallery)               |      [Live Demo](https://muhib-dev.github.io/vanila-javascript-projects/image-gallery/)       |

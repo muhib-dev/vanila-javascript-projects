@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Image Gallery</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container flex">
+        <h1>Image Gallery</h1>
+      </div>
+    </header>
+    <main>
+      <div class="container" id="grid"></div>
+      <div class="load-more-container">
+        <button id="btn-load-more">Load more image</button>
+      </div>
+    </main>
+
+    <div class="preview-card">
+      <div class="card-header">
+        <strong class="total-img"></strong>
+        <i class="close-icon fas fa-times"></i>
+      </div>
+      <div class="card-body">
+        <div class="control prev"><i class="fas fa-angle-left"></i></div>
+        <div class="control next"><i class="fas fa-angle-right"></i></div>
+        <img src="" alt="" />
+      </div>
+    </div>
+    <div class="shadow"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
