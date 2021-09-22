@@ -1,6 +1,6 @@
-# vanila-javascript-projects
+# Vanilla javascript projects
 
-mini project develop with vanila-javascript
+vanilla javascript mini projects
 
 |  #  |                                                           Project                                                           |                                           Live Demo                                           |
 | :-: | :-------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
