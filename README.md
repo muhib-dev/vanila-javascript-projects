@@ -12,3 +12,4 @@ vanilla javascript mini projects
 | 06  |                [Modal Popup](https://github.com/muhib-dev/vanila-javascript-projects/tree/main/modal-popup)                 |       [Live Demo](https://muhib-dev.github.io/vanila-javascript-projects/modal-popup/)        |
 | 07  |        [Autocomplete Search](https://github.com/muhib-dev/vanila-javascript-projects/tree/main/autocomplete-search)         |   [Live Demo](https://muhib-dev.github.io/vanila-javascript-projects/autocomplete-search/)    |
 | 08  |              [Image Gallery](https://github.com/muhib-dev/vanila-javascript-projects/tree/main/image-gallery)               |      [Live Demo](https://muhib-dev.github.io/vanila-javascript-projects/image-gallery/)       |
+| 09  |              [Sales Counter](https://github.com/muhib-dev/vanila-javascript-projects/tree/main/sales-counter)               |      [Live Demo](https://muhib-dev.github.io/vanila-javascript-projects/sales-counter/)       |

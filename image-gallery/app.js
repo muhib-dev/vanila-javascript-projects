@@ -14,6 +14,7 @@ function setImages() {
     img.src = `${baseUrl}${getSizes()}`;
     fragment.appendChild(img);
   }
+
   imageContainer.appendChild(fragment);
 }
 
@@ -67,7 +68,6 @@ imageContainer.addEventListener("click", function (evt) {
 //preview btn
 const prevBtn = document.querySelector(".prev");
 prevBtn.addEventListener("click", function () {
-  console.log(currentIndex);
   currentIndex--;
   if (currentIndex == 0) {
     prevBtn.style.display = "none";

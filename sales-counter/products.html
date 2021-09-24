@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container"><h2>SALES COUNTER</h2></div>
+    </header>
+    <main class="container mb-1">
+      <h2 class="page-title">All Products</h2>
+      <a href="./index.html">
+        <i class="fas fa-long-arrow-alt-left"></i>
+        Back to Sales Counter
+      </a>
+
+      <div class="card mt-1">
+        <table class="table">
+          <thead>
+            <tr>
+              <th><strong>Code</strong></th>
+              <th><strong>Product</strong></th>
+              <th><strong>Purchase Price</strong></th>
+              <th><strong>Selling Price</strong></th>
+              <th><strong>Stock</strong></th>
+            </tr>
+          </thead>
+          <tbody id="tBody"></tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="./js/product.js"></script>
+  </body>
+</html>

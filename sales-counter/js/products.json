@@ -1,0 +1,135 @@
+[{
+    "id":1,
+    "title": "Brown eggs",
+    "type": "dairy",
+    "description": "Raw organic brown eggs in a basket",
+    "price": 28,
+    "purchasePrice":25,
+    "currentStock":100,
+    "code": 1001
+  }, {
+    "id":2,
+    "title": "Sweet fresh stawberry",
+    "type": "fruit",
+    "description": "Sweet fresh stawberry on the wooden table",
+    "price":30,
+    "purchasePrice":28,
+    "currentStock":85,
+    "code": 1002
+  }, {
+    "id":3,
+    "title": "Asparagus",
+    "type": "vegetable",
+    "description": "Asparagus with ham on the wooden table",
+    "price": 22,
+    "purchasePrice":17,
+    "currentStock":120,
+    "code": 1003
+  }, {
+    "id":4,
+    "title": "Green smoothie",
+    "type": "dairy",
+    "description": "Glass of green smoothie with quail egg's yolk, served with cocktail tube, green apple and baby spinach leaves over tin surface.",
+    "price": 25,
+    "purchasePrice":15,
+    "currentStock":40,
+    "code": 1004
+  }, {
+    "id":5,
+    "title": "Raw legums",
+    "type": "vegetable",
+    "description": "Raw legums on the wooden table",
+    "price": 18,
+    "purchasePrice":10,
+    "currentStock":10,
+    "code": 1005
+  }, {
+    "id":6,
+    "title": "Baking cake",
+    "type": "dairy",
+    "price": 12,
+    "purchasePrice":10,
+    "currentStock":2,
+    "code": 1006
+  }, {
+    "id":7,
+    "title": "Pesto with basil",
+    "type": "vegetable",
+    "description": "Italian traditional pesto with basil, chesse and oil",
+    "price": 20,
+    "purchasePrice":15,
+    "currentStock":8,
+    "code": 1007
+  }, {
+    "id":8,
+    "title": "Hazelnut in black ceramic bowl",
+    "type": "vegetable",
+    "description": "Hazelnut in black ceramic bowl on old wooden background. forest wealth. rustic style. selective focus",
+    "price": 27,
+    "purchasePrice":25,
+    "currentStock":20,
+    "code": 1008
+  }, {
+    "id":9,
+    "title": "Fresh stawberry",
+    "type": "fruit",
+    "description": "Sweet fresh stawberry on the wooden table",
+    "price": 25,
+    "purchasePrice":20,
+    "currentStock":5,
+    "code": 1009
+  }, {
+    "id":10,
+    "title": "Lemon and salt",
+    "type": "fruit",
+    "description": "Rosemary, lemon and salt on the table",
+    "price": 15,
+    "purchasePrice":12.10,
+    "currentStock":4,
+    "code": 1010
+  }, {
+    "id":11,
+    "title": "Homemade bread",
+    "type": "bakery",
+    "description": "Homemade bread",
+    "price": 20,
+    "purchasePrice":12.20,
+    "currentStock":10,
+    "code": 1011
+  }, {
+    "id":12,
+    "title": "Legums",
+    "type": "vegetable",
+    "description": "Cooked legums on the wooden table",
+    "price": 15,
+    "purchasePrice":10,
+    "currentStock":20,
+    "code": 1012
+  }, {
+    "id":13,
+    "title": "Fresh tomato",
+    "type": "vegetable",
+    "description": "Fresh tomato juice with basil",
+    "price": 20,
+    "purchasePrice":11,
+    "currentStock":5,
+    "code": 1013
+  }, {
+    "id":14,
+    "title": "Healthy breakfast",
+    "type": "fruit",
+    "description": "Healthy breakfast set. rice cereal or porridge with berries and honey over rustic wood background",
+    "price": 14,
+    "purchasePrice":10.50,
+    "currentStock":12,
+    "code": 1014
+  }, {
+    "id":15,
+    "title": "Green beans",
+    "type": "vegetable",
+    "description": "Raw organic green beans ready to eat",
+    "price":28,
+    "purchasePrice":25.20,
+    "currentStock":2,
+    "code": 1015
+  }]
