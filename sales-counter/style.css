@@ -196,6 +196,13 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
+.responsive-table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 /**responsive**/
 @media (max-width: 1140px) {
   .container {
@@ -206,9 +213,19 @@ input[type="number"] {
 }
 
 @media (max-width: 768px) {
-  .flex-wrap {
-    flex-wrap: wrap;
+  .flex {
+    display: block;
   }
+
+  .d-sm {
+    display: flex;
+  }
+  .d-sm input,
+  button {
+    display: inline-block;
+    width: auto;
+  }
+
   .payment-section {
     width: 100%;
     margin-left: 0;

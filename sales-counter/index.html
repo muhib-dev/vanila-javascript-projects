@@ -28,7 +28,7 @@
         <div class="flex-1">
           <div class="card mb-1">
             <form id="formAddProduct">
-              <div class="flex">
+              <div class="flex d-sm">
                 <input
                   type="text"
                   class="form-control"
@@ -46,20 +46,22 @@
           </div>
 
           <div class="card">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th><strong>Product</strong></th>
-                  <th><strong>Price</strong></th>
-                  <th class="text-center" style="width: 120px">
-                    <strong>Quantity</strong>
-                  </th>
-                  <th class="text-right"><strong>Line Total</strong></th>
-                  <th class="text-center"><strong>Remove</strong></th>
-                </tr>
-              </thead>
-              <tbody id="tBody"></tbody>
-            </table>
+            <div class="responsive-table">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th><strong>Product</strong></th>
+                    <th><strong>Price</strong></th>
+                    <th class="text-center" style="width: 120px">
+                      <strong>Quantity</strong>
+                    </th>
+                    <th class="text-right"><strong>Line Total</strong></th>
+                    <th class="text-center"><strong>Remove</strong></th>
+                  </tr>
+                </thead>
+                <tbody id="tBody"></tbody>
+              </table>
+            </div>
           </div>
         </div>
 
