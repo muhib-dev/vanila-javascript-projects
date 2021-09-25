@@ -28,7 +28,7 @@
 
     const product = await getProductByCode(code);
     if (!product) {
-      codeError.textContent = `'${code}' product not found!`;
+      codeError.textContent = `'${this.code.value}' product not found!`;
       return;
     }
 
