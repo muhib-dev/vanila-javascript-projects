@@ -144,9 +144,14 @@ header {
   display: none;
   background: rgba(0, 0, 0, 0.45);
 }
+
 /**responsive**/
 @media (max-width: 768px) {
   #grid {
     grid-template-columns: repeat(2, 1fr);
+    padding: 0 1rem;
+  }
+  .preview-card {
+    width: 95%;
   }
 }
