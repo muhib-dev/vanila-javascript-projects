@@ -54,7 +54,7 @@ const checkPassword = () => {
   } else if (!isPasswordSecure(password)) {
     showErrorStatus(
       inputPassword,
-      "Password must has at least 8 characters at least 1 lowercase, 1 uppercase, 1 number, and 1 special character in (!@#$%^&*)",
+      "Password must has at least 8 characters at least 1 lowercase, 1 uppercase, 1 number, and 1 special character in (_!@#$%^&*)",
       true
     );
   } else {
@@ -93,7 +93,7 @@ const isEmailValid = (email) => {
 //password options
 const isPasswordSecure = (password) => {
   const re = new RegExp(
-    "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})"
+    "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[_!@#$%^&*])(?=.{8,})"
   );
   return re.test(password);
 };
@@ -163,8 +163,8 @@ function toggleLabelActive(element, status) {
     : label.classList.remove("active");
 }
 
-//on focus input add label active
-formSignup.addEventListener("click", function (evt) {
+//on input add label active
+formSignup.addEventListener("input", function (evt) {
   const element = evt.target;
   const onInput = element.classList.contains("form-control");
 
