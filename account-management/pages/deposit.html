@@ -4,17 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Withdraw</title>
+    <title>Deposit</title>
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <div class="container">
-      <h4 class="title-text">
-        Withdraw From : <span id="accountNameLabel"></span>
-      </h4>
-      <a class="link" href="../index.html">Back To Account</a>
+      <div class="mx-1">
+        <h4 class="title-text">
+          Deposit To : <span id="accountNameLabel"></span>
+        </h4>
+        <a class="link" href="../index.html">Back To Account</a>
+      </div>
+
       <div class="card">
-        <form id="formWithdraw">
+        <form id="formDeposit">
           <div class="flex">
             <input
               type="number"
@@ -30,7 +33,7 @@
               class="input-control mx-1"
               placeholder="Description"
             />
-            <input type="submit" value="Withdraw" class="btn btn-primary" />
+            <input type="submit" value="Deposit" class="btn btn-primary" />
           </div>
         </form>
         <table class="table">
@@ -42,12 +45,12 @@
               <th>Delete</th>
             </tr>
           </thead>
-          <tbody id="withdrawTBody"></tbody>
+          <tbody id="depositTBody"></tbody>
         </table>
       </div>
     </div>
 
     <script src="../js/app.js"></script>
-    <script src="../js/withdraw.js"></script>
+    <script src="../js/deposit.js"></script>
   </body>
 </html>

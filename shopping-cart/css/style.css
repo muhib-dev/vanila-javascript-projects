@@ -18,6 +18,12 @@ body {
   text-align: left;
   background-color: var(--bg-color);
 }
+/*stop scroll on mobile**/
+body.stop-scroll {
+  height: 100%;
+  overflow: hidden;
+}
+
 header {
   background-color: #36415f;
   padding: 1rem;
@@ -149,5 +155,10 @@ input[type="number"] {
 @media (min-width: 768px) {
   .product-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+  /*enable scroll*/
+  body.stop-scroll {
+    height: auto;
+    overflow: auto;
   }
 }

@@ -11,6 +11,6 @@ fully responsive and dynamic shopping cart
 - prevent duplicate cart added
 - update cart quantity
 - delete item from cart
-- save cart to brower localstorage
+- save cart to browser localstorage
 
 [live demo](https://muhib-dev.github.io/vanila-javascript-projects/shopping-cart/)

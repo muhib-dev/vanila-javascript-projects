@@ -121,13 +121,28 @@ body {
   border-bottom: 1px solid rgb(103, 177, 238);
   outline: none;
 }
+
 /**responsive**/
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   main {
     display: flex;
     justify-content: space-between;
     height: 100vh;
   }
+  .form-section {
+    flex: 1;
+    padding: 1rem 3rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .form-section {
+    flex: 1;
+    padding: 2rem 5rem;
+  }
+}
+
+@media (min-width: 1500px) {
   .form-section {
     flex: 1;
     padding: 5rem 10rem;

@@ -14,7 +14,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="flex">
+      <div class="flex mx-1">
         <h4 class="title-text">Account Management</h4>
         <h4 class="title-text">
           Total Balance: <span id="labelTotalBalance"></span>
@@ -40,18 +40,20 @@
           </div>
         </form>
 
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Account Name</th>
-              <th>Account Balance</th>
-              <th>Delete</th>
-              <th>Deposit</th>
-              <th>Withdraw</th>
-            </tr>
-          </thead>
-          <tbody id="tBody"></tbody>
-        </table>
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Account Name</th>
+                <th>Account Balance</th>
+                <th>Delete</th>
+                <th>Deposit</th>
+                <th>Withdraw</th>
+              </tr>
+            </thead>
+            <tbody id="tBody"></tbody>
+          </table>
+        </div>
       </div>
     </div>
     <script src="./js/app.js"></script>

@@ -1,6 +1,6 @@
 # Register Form Validation
 
-Modern UI form registration and apply validation on client side using vanila js
+Modern UI form registration and apply validation on client side using vanilla js
 
 ### features
 

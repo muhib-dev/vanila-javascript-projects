@@ -9,11 +9,12 @@ const cartItemContainer = document.getElementById("cart-item");
 const cartTotalPrice = document.getElementById("cart-total-price");
 
 //cart drawer open click
-countTotalCart.addEventListener("click", function (evt) {
+countTotalCart.addEventListener("click", function () {
   const totalQuantityCount = shoppingCart.totalQuantityCount();
 
   if (totalQuantityCount) {
     cartContiner.classList.toggle("cart-open");
+    document.querySelector("body").classList.add("stop-scroll");
     return;
   }
 });
@@ -21,6 +22,7 @@ countTotalCart.addEventListener("click", function (evt) {
 //cart drawer close click
 cartCloaseIcon.addEventListener("click", function (evt) {
   cartContiner.classList.remove("cart-open");
+  document.querySelector("body").classList.remove("stop-scroll");
 });
 
 //**PRODUCTS*/
